@@ -1,1 +1,41 @@
-# medifolio-llm-medical-system
+# Medifolio — LLM-Powered Medical Document Intelligence System
+
+> Published at ICICCT 2025 — Springer CCIS  
+> Source code is private due to publication and IP restrictions
+
+## Overview
+Medifolio is an end-to-end AI system for medical document 
+understanding and intelligent patient portfolio management. 
+It combines LLM fine-tuning, OCR-based document extraction, 
+and a RAG-style chatbot to help users query and manage 
+structured clinical data.
+
+## Key Features
+- LLaMA fine-tuned on domain-specific medical data (PyTorch)
+- AWS Textract for clinical document OCR and extraction
+- RAG-style pipeline for grounded, accurate chatbot responses
+- REST API backend (Flask + SQLAlchemy)
+- React frontend with real-time conversational interface
+- Full ML lifecycle: dataset prep → fine-tuning → evaluation
+
+## Tech Stack
+| Layer | Technology |
+
+| AI / ML  : PyTorch, LLaMA, Prompt Engineering |
+| Backend  : Python, Flask, REST APIs |
+| Frontend : React, JavaScript, HTML, CSS |
+| Cloud    : AWS Textract |
+
+## Project Structure
+
+medifolio/
+├── backend/         # Flask API, ML pipeline
+├── frontend/        # React UI
+├── chat_contexts/   # Chatbot conversation logic
+
+
+## Publication
+Presented and published at **ICICCT 2025**  
+Springer CCIS — Communications in Computer and Information Science
+
+> Full source code is restricted due to active publication and IP protection.
