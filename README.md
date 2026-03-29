@@ -25,14 +25,14 @@ structured clinical data.
 | Backend  : Python, Flask, REST APIs |
 | Frontend : React, JavaScript, HTML, CSS |
 | Cloud    : AWS Textract |
-
+```
 ## Project Structure
 
 medifolio/
 ├── backend/         # Flask API, ML pipeline
 ├── frontend/        # React UI
 ├── chat_contexts/   # Chatbot conversation logic
-
+```
 
 ## Publication
 Presented and published at **ICICCT 2025**  
