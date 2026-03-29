@@ -27,24 +27,6 @@ def chat():
     }
     return jsonify(response)
 
-@app.route("/api/upload-prescription", methods=["POST"])
-def upload_prescription():
-    """Upload and process a prescription image"""
-    if "file" not in request.files:
-        return jsonify({"error": "No file uploaded"}), 400
-
-    file = request.files["file"]
-    if file.filename == "":
-        return jsonify({"error": "Empty filename"}), 400
-
-    # Save file
-    filename = secure_filename(file.filename)
-    file.save(os.path.join(app.config["UPLOAD_FOLDER"], filename))
-
-    # Simulate recognition result
-    prescription_text = "Paracetamol 500mg, Take one tablet twice a day."
-    return jsonify({"message": "Prescription uploaded successfully.", "recognized_text": prescription_text})
-
 @app.route("/api/doctors", methods=["GET"])
 def get_doctors():
     """Return hardcoded list of doctors"""
