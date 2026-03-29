@@ -30,13 +30,6 @@ Backend  : Python, Flask, REST APIs
 Frontend : React, JavaScript, HTML, CSS 
 
 Cloud    : AWS Textract 
-```
-## Project Structure
-
-medifolio/
-├── backend/
-├── frontend/        
-```
 
 ## Publication
 Presented and published at **ICICCT 2025**  
