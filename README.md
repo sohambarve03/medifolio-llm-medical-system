@@ -1,4 +1,4 @@
-# Medifolio — LLM-Powered Medical Intelligence System
+# Medifolio — Medifolio: An Intelligent Medical Portfolio System for Healthcare Management and Consultation (LLM Powered)
 
 > Published at ICICCT 2025 — Springer CCIS  
 > Source code is private due to publication and IP restrictions
