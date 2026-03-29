@@ -14,7 +14,7 @@ structured clinical data.
 - LLaMA fine-tuned on domain-specific medical data (PyTorch)
 - AWS Textract for clinical document OCR and extraction
 - RAG-style pipeline for grounded, accurate chatbot responses
-- REST API backend (Flask + SQLAlchemy)
+- REST API backend (Flask)
 - React frontend with real-time conversational interface
 - Full ML lifecycle: dataset prep → fine-tuning → evaluation
 
